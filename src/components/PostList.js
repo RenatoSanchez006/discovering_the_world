@@ -1,17 +1,21 @@
-import { Typography } from "@mui/material";
-import Post from "./Post";
+import { useContext } from "react";
+import { postContext } from "../context/post-context";
+import { Grid } from "@mui/material";
+import PrevPost from "./PrevPost";
 
 const PostList = () => {
-  const arrPost = [1, 2, 3];
+  const { postList } = useContext(postContext);
   return (
-    <div>
-      <Typography>Post List</Typography>
-      <div>
-        {arrPost.map((item) => {
-          return <Post id={item} item={item} />;
+    <Grid container>
+      {postList &&
+        postList.map((post) => {
+          return (
+            <Grid key={post.id} item xs={12} md={6}>
+              <PrevPost post={post} />
+            </Grid>
+          );
         })}
-      </div>
-    </div>
+    </Grid>
   );
 };
 
