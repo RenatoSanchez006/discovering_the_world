@@ -1,18 +1,24 @@
+import { Box } from "@mui/material";
 import AddComment from "./AddComment";
 import Comment from "./Comment";
 
-const PostList = () => {
-  const arrComments = [1, 2, 3];
+const ListComments = ({ comments }) => {
   return (
-    <div>
-      <AddComment />
-      <div>
-        {arrComments.map((item) => {
-          return <Comment id={item} item={item} />;
-        })}
-      </div>
-    </div>
+    <Box>
+      <Box sx={{my: 2}}>
+        <AddComment />
+      </Box>
+      <Box sx={{my: 2}}>
+        {comments && (
+          <div>
+            {comments.map((comment, index) => {
+              return <Comment key={index} comment={comment} />;
+            })}
+          </div>
+        )}
+      </Box>
+    </Box>
   );
 };
 
-export default PostList;
+export default ListComments;

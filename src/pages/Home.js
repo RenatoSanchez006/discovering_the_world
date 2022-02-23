@@ -1,12 +1,10 @@
-import Header from "../components/Header";
+import { Fab } from "@mui/material";
+import EditIcon from "@mui/icons-material/Edit";
+import { deepOrange as orange } from "@mui/material/colors";
 import Filter from "../components/Filter";
 import PostList from "../components/PostList";
 import ModalPost from "../components/ModalPost";
-import { Fab } from "@mui/material";
-import { useContext, useEffect } from "react";
-import { postContext } from "../context/post-context";
-import EditIcon from "@mui/icons-material/Edit";
-import { deepOrange as orange } from "@mui/material/colors";
+import { useState } from "react";
 
 const Home = () => {
   const fabStyle = {
@@ -15,20 +13,33 @@ const Home = () => {
     "&:hover": {
       bgcolor: orange[600],
     },
-    position: "absolute",
+    position: "fixed",
     bottom: 20,
     right: 20,
   };
 
+  const [modalOpen, setModalOpenState] = useState(false);
+  const openModalHandler = () => {
+    setModalOpenState(true);
+  };
+
+  const closeModalHanlder = () => {
+    setModalOpenState(false);
+  };
+
   return (
     <div>
-      <Header />
       <Filter />
-      <Fab sx={fabStyle}>
+      <Fab sx={fabStyle} onClick={openModalHandler}>
         <EditIcon />
       </Fab>
       <PostList />
-      {/* <ModalPost view="Home"/> */}
+      <ModalPost
+        data={require("../services/emptyPost.json")}
+        isOpen={modalOpen}
+        onClose={closeModalHanlder}
+        isEdit={false}
+      />
     </div>
   );
 };
