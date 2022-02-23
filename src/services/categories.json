@@ -1,0 +1,22 @@
+[
+  {
+    "value": 1,
+    "label": "Travel"
+  },
+  {
+    "value": 2,
+    "label": "Lifestyle"
+  },
+  {
+    "value": 3,
+    "label": "Business"
+  },
+  {
+    "value": 4,
+    "label": "Food"
+  },
+  {
+    "value": 5,
+    "label": "Work"
+  }
+]

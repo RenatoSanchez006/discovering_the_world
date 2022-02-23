@@ -20,8 +20,7 @@
         "user": "Klarika Barthropp",
         "comment": "Implemented bifurcated firmware"
       }
-    ],
-    "isActive": true
+    ]
   },
   {
     "id": "85d3d8d0-b70c-41fe-9719-95e273201aaa",
@@ -33,8 +32,7 @@
     "comments": [
       { "user": "Bryon Dunn", "comment": "Reduced 6th generation ability" },
       { "user": "Nealon Crewe", "comment": "Reactive web-enabled database" }
-    ],
-    "isActive": true
+    ]
   },
   {
     "id": "47b6075a-bc37-4846-80da-f808212250ab",
@@ -49,13 +47,12 @@
         "comment": "Innovative fresh-thinking emulation"
       },
       { "user": "Mario Fulton", "comment": "Focused fresh-thinking capability" }
-    ],
-    "isActive": false
+    ]
   },
   {
     "id": "711505d8-3d6c-467e-8a01-cbe78d13f77e",
     "title": "Astragalus castaneiformis S. Watson",
-    "category": "Food",
+    "category": "Work",
     "description": "Mandatory actuating contingency",
     "text": "vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla",
     "img": "http://placeimg.com/800/240/arch",
@@ -63,21 +60,19 @@
       { "user": "Ginevra McGooch", "comment": "Balanced heuristic hardware" },
       { "user": "Mallory Whiskerd", "comment": "Cloned hybrid migration" },
       { "user": "Elna Gierck", "comment": "Upgradable full-range forecast" }
-    ],
-    "isActive": true
+    ]
   },
   {
     "id": "e545b19e-9eaf-40c8-9459-79d81da49d41",
     "title": "Bonamia ovalifolia (Torr.) Hallier f.",
-    "category": "Work",
+    "category": "Food",
     "description": "Persevering 24 hour contingency",
     "text": "adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque",
     "img": "http://placeimg.com/800/240/people",
     "comments": [
       { "user": "Edan Mille", "comment": "Persistent foreground throughput" },
       { "user": "Sam McKane", "comment": "Proactive dedicated service-desk" }
-    ],
-    "isActive": false
+    ]
   },
   {
     "id": "50130852-e917-46a5-b65c-88cf314ec991",
@@ -90,8 +85,7 @@
       { "user": "Cristina Skipper", "comment": "Compatible real-time adapter" },
       { "user": "Emalee Yaneev", "comment": "Organic regional product" },
       { "user": "Cornall Wogan", "comment": "Grass-roots secondary paradigm" }
-    ],
-    "isActive": false
+    ]
   },
   {
     "id": "007048a6-69e5-44b2-8c49-77803631e444",
@@ -105,8 +99,7 @@
         "user": "Kesley Scanterbury",
         "comment": "Diverse attitude-oriented portal"
       }
-    ],
-    "isActive": true
+    ]
   },
   {
     "id": "ec0942cd-9fec-4ef9-a25e-da28ecbe82bb",
@@ -122,13 +115,12 @@
       },
 
       { "user": "Stanly Lorroway", "comment": "Ergonomic national challenge" }
-    ],
-    "isActive": false
+    ]
   },
   {
     "id": "e3cd6264-100b-41b1-9c59-4d7bfb04a3bd",
     "title": "Flindersia R. Br.",
-    "category": "Food",
+    "category": "Work",
     "description": "Grass-roots impactful approach",
     "text": "nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque",
     "img": "http://placeimg.com/800/240/nature",
@@ -141,19 +133,17 @@
         "user": "Hyacintha Duinbleton",
         "comment": "Total contextually-based structure"
       }
-    ],
-    "isActive": false
+    ]
   },
   {
     "id": "eac8c03a-2b55-495a-a0f0-255ffe27eb18",
     "title": "Work",
-    "category": "Drama",
+    "category" : "Work",
     "description": "Advanced content-based function",
     "text": "vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit",
     "img": "http://placeimg.com/800/240/animals",
     "comments": [
       { "user": "Timmi Pakenham", "comment": "User-centric zero defect array" }
-    ],
-    "isActive": true
+    ]
   }
 ]
