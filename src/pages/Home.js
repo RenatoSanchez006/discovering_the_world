@@ -16,6 +16,7 @@ const Home = () => {
     position: "fixed",
     bottom: 20,
     right: 20,
+    zindex: "tooltip",
   };
 
   const [modalOpen, setModalOpenState] = useState(false);

@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { Typography, Box } from "@mui/material";
+import { Typography, Box, Grid } from "@mui/material";
 import { grey } from "@mui/material/colors";
 import ListComments from "../components/ListComments";
 import { postContext } from "../context/post-context";
@@ -9,7 +9,7 @@ const Post = () => {
   const { id: postId } = useParams();
   const { getPost } = useContext(postContext);
   const [singlePost, setSinglePost] = useState({});
-  
+
   useEffect(() => {
     setSinglePost(getPost(postId));
   }, []);
@@ -40,36 +40,37 @@ const Post = () => {
               fontWeight: "medium",
             }}
           >
-            [{singlePost.category}]
+            [ {singlePost.category} ]
           </Box>
         </Typography>
       </Box>
-      <Box
+      <Grid
+        container
         sx={{
           bgcolor: grey[200],
           display: "flex",
           alignItems: "center",
         }}
-        square
       >
         {/* <Box sx={{ px: 10, py: 5, width: "100%", textAlign: "center" }}> */}
-        <Box sx={{ px: 10, py: 5, width: "100%" }}>
+        <Grid item sm={12} sx={{ px: 10, py: 5 }}>
           <Typography component="div">
-            <Box
+            <Grid
               sx={{
                 typography: "body1",
+                fontSize: "h6.fontSize",
                 fontWeight: "medium",
                 textAlign: "justify",
               }}
             >
               {singlePost.text}
-            </Box>
+            </Grid>
           </Typography>
-          <Box sx={{ width: "50%", my: 3 }}>
+          <Grid sm={12} item>
             <ListComments comments={singlePost.comments} />
-          </Box>
-        </Box>
-      </Box>
+          </Grid>
+        </Grid>
+      </Grid>
     </div>
   );
 };

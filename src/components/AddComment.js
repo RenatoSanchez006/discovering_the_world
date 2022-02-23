@@ -1,4 +1,4 @@
-import { Button, TextField } from "@mui/material";
+import { Button, Grid, TextField } from "@mui/material";
 import { useContext } from "react";
 import { useForm } from "react-hook-form";
 import { useParams } from "react-router-dom";
@@ -15,20 +15,30 @@ const AddComment = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmitHandler)}>
-      <TextField
-        size="small"
-        placeholder="user"
-        variant="standard"
-        {...register("user", { required: true })}
-      />
-      <TextField
-        size="small"
-        placeholder="Enter your comment"
-        variant="standard"
-        {...register("comment", { required: true })}
-      />
-      <Button type="submit">Add</Button>
+    <form onSubmit={handleSubmit(onSubmitHandler)} style={{ width: "100%" }}>
+      <Grid container spacing={2}>
+        <Grid item sm={3}>
+          <TextField
+            fullWidth
+            size="small"
+            placeholder="Username"
+            variant="standard"
+            {...register("user", { required: true })}
+          />
+        </Grid>
+        <Grid item sm={8}>
+          <TextField
+            fullWidth
+            size="small"
+            placeholder="Write a comment"
+            variant="standard"
+            {...register("comment", { required: true })}
+          />
+        </Grid>
+        <Grid item sm={1}>
+          <Button type="submit">Add</Button>
+        </Grid>
+      </Grid>
     </form>
   );
 };
