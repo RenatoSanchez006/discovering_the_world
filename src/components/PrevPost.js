@@ -12,6 +12,7 @@ import {
 import { grey } from "@mui/material/colors";
 import { Delete, Edit, ForumOutlined } from "@mui/icons-material";
 import ModalPost from "./ModalPost";
+import DummyButton from "./DummyButton";
 
 const PrevPost = ({ post }) => {
   const { deletePost } = useContext(postContext);

@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { postContext } from "../context/post-context";
 import { Grid } from "@mui/material";
 import PrevPost from "./PrevPost";
+import DummyButton from "./DummyButton";
 
 const PostList = () => {
   const { category } = useParams();
@@ -15,16 +16,24 @@ const PostList = () => {
   }, [category, postList, filterPosts]);
 
   return (
-    <Grid container>
-      {posts &&
-        posts.map((post) => {
-          return (
-            <Grid key={post.id} item xs={12} md={6}>
-              <PrevPost post={post} />
-            </Grid>
-          );
-        })}
-    </Grid>
+    <>
+      <DummyButton
+        message={"You are on Post List"}
+        btnName="Show Alert"
+        color="blue"
+      />
+      <DummyButton />
+      <Grid container>
+        {posts &&
+          posts.map((post) => {
+            return (
+              <Grid key={post.id} item xs={12} md={6}>
+                <PrevPost post={post} />
+              </Grid>
+            );
+          })}
+      </Grid>
+    </>
   );
 };
 

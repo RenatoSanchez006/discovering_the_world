@@ -16,6 +16,7 @@ import { useForm } from "react-hook-form";
 import { grey } from "@mui/material/colors";
 import { useContext, useState } from "react";
 import { postContext } from "../context/post-context";
+import DummyButton from "./DummyButton";
 
 const ModalPost = ({ data, isOpen, onClose, isEdit }) => {
   const categories = require("../services/categories.json");
@@ -50,6 +51,10 @@ const ModalPost = ({ data, isOpen, onClose, isEdit }) => {
       fullWidth={true}
       maxWidth="xs"
     >
+      <DummyButton
+        message="You are on Modal Post"
+        color={isEdit ? "yellow" : "green"}
+      />
       <form onSubmit={handleSubmit(onSubmitHandler)}>
         <DialogTitle>Create Post</DialogTitle>
         <DialogContent>

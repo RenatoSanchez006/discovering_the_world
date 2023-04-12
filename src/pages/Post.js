@@ -4,6 +4,7 @@ import { Typography, Box, Grid } from "@mui/material";
 import { grey } from "@mui/material/colors";
 import ListComments from "../components/ListComments";
 import { postContext } from "../context/post-context";
+import DummyButton from "../components/DummyButton";
 
 const Post = () => {
   const { id: postId } = useParams();
@@ -15,7 +16,8 @@ const Post = () => {
   }, []);
 
   return (
-    <div>
+    <>
+      <DummyButton message={"You are on Post"} color="red" />
       <Box
         sx={{
           backgroundImage: `url(${singlePost.img})`,
@@ -71,7 +73,7 @@ const Post = () => {
           </Grid>
         </Grid>
       </Grid>
-    </div>
+    </>
   );
 };
 
